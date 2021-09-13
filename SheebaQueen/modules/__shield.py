@@ -437,7 +437,5 @@ __help__ = """
  - /globalmode <i>on/off</i> - Enable|Disable English only mode
  - /profanity <i>on/off</i> - Enable|Disable slag word cleaning
  
-Note: Special credits goes to Julia project and Friday Userbot
- 
 """
 __mod_name__ = "Shield"
