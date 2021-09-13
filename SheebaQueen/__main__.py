@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow` [🤗](https://telegra.ph/file/b222e851d7c395223e37d.jpg) `My name is` *Sheeba*
-`I'm here to help in managing your Kingdoms! Hit` *📚Commands*   
+`Hellow` (https://telegra.ph/file/13446e53bbd3a010063e3.jpg) `My name is` *Cyborg*
+`I'm here to help in managing your group! Hit` *Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Sheeba The Queen To Your Group ➕️", url="t.me/Sheeba_Queenbot?startgroup=true"),
+            text="➕️ Add Cyborg To Your Group ➕️", url="t.me/CyborgProbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="sheeba_"),
@@ -96,11 +96,11 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Sheeba Queen 🙋‍♀️](https://telegra.ph/file/b222e851d7c395223e37d.jpg)
+`Hi.. I'm` [Cybrog](https://telegra.ph/file/bd5dd07fea580edd8a8de.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-Sheeba_IMG = "https://telegra.ph/file/b222e851d7c395223e37d.jpg"
+Sheeba_IMG = "https://telegra.ph/file/13446e53bbd3a010063e3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @\
@@ -350,7 +350,7 @@ def sheeba_about_callback(update, context):
     query = update.callback_query
     if query.data == "Sheeba_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Sheeba*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Cyborg*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -358,8 +358,8 @@ def sheeba_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                 
-                 \nHere is the [💾Repository avail soon](https://t.me/Developer_boy_sd_owner).
-                 \n\nIf you have any question about sheeba, let us know at .""",
+                 \nFor the Repository contact [heyaaman] (https://t.me/heyaaman).
+                 \n\nIf you have any question about Cyborg, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,8 +385,8 @@ def owner_about_callback(update, context):
     query = update.callback_query
     if query.data == "owner_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Sheeba*
-                 \nHere is the [owner](https://t.me/Developer_boy_sd_owner) .""",
+            text=""" Hi..I'm *Cyborg*
+                 \nHere is the [owner](https://t.me/heyaaman) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
