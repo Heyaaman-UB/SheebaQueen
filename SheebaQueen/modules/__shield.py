@@ -430,7 +430,7 @@ async def del_profanity(event):
 
 __help__ = """
 <b> Group Guardian: </b>
-✪ Sheeba Queen  protect your kingdom from NSFW senders, Slag word users and also can force members to use English By Runing Her PowerFull Sword
+✪ Cyborg will protect your group from NSFW senders, Slag word users and also can force members to use English By Runing Her PowerFull Sword
 
 <b>Commmands</b>
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
@@ -440,4 +440,4 @@ __help__ = """
 Note: Special credits goes to Julia project and Friday Userbot
  
 """
-__mod_name__ = "🛡️Shield⚔️"
+__mod_name__ = "Shield"
